@@ -7,9 +7,9 @@ var config = {
     user: 'inboxsgk'
     database: 'inboxsgk'
     host: 'db.imad.hasura-app.io'
-    port: '5432'
+   
     password: process.env.DB_PASSWORD
-}
+};
 
 var app = express();
 app.use(morgan('combined'));
