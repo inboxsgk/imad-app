@@ -7,7 +7,7 @@ var config = {
     user: 'inboxsgk'
     database: 'inboxsgk'
     host: 'db.imad.hasura-app.io'
-    port: '5432'
+    port: '80'
     password: process.env.DB_PASSWORD
 };
 var app = express();
